@@ -8,9 +8,6 @@ function App() {
     if(counter<100){
       setCounter(counter+1)
     }
-    else{
-      counter = 'Out Of Limit';
-    }
     
   }
 
