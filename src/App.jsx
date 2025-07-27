@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -24,7 +25,7 @@ function App() {
   return (
     <>
     <h2><b>Counter</b></h2>
-    <h3>The Counter Value is : {counter}</h3>
+    <h3 className='bg-green-400'>The Counter Value is : {counter}</h3>
     <button onClick={addValue}>Add Value</button>
     <button onClick={removeValue}>Delete Value</button>
 
